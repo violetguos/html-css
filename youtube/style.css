@@ -1,0 +1,28 @@
+.top {
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+}
+
+
+.main {
+    width: 100%;
+}
+
+.video {
+    float:left; 
+    width: 80%;
+    background-color: #ff0000;
+    height: 400px;
+}
+
+.comments{
+    background-color: yellow;
+}
+
+.recommendations {
+float: right;
+    background-color: #00ff00;
+    height: 400px;
+    width: 20%;
+}
