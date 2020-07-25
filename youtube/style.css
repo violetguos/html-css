@@ -25,6 +25,8 @@
 
 .comments{
     background-color: yellow;
+    float:left; 
+    width: 70%;
 }
 
 .recommendations{
@@ -37,8 +39,7 @@
     float: left;
 }
 .rec-thumbnail p {
-    display: inline-block;
-    height: 100px;
+    height: 100px; /* TODO: need to make this mobile*/
     text-align: top;
     border: 3px solid blue;
 }
