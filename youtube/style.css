@@ -14,19 +14,24 @@
 
 
 .main {
-    width: 100%;
+    width: 98%;
+    padding: 2%;
 }
 
 .video {
     float:left; 
-    width: 70%;
+    width: 60%;
     background-color: #ff0000;
+}
+
+iframe{
+    text-align: center;
 }
 
 .comments{
     background-color: yellow;
     float:left; 
-    width: 70%;
+    width: 100%;
 }
 
 .recommendations{
