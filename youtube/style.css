@@ -37,15 +37,26 @@ body {
     margin: 2px;
     
     align-items: center;
+    flex-direction: column;
+
 }
 
 .video{
-    flex-direction: column;
     width: 70%;
+}
+
+#intro{
+    border: 2px solid black;
+
 }
 
 .recommendations{
     width: 30%;
+}
+
+.recommendations div{
+    border: 2px solid black;
+    margin: 2px;
 }
 
 .comment{
@@ -53,5 +64,9 @@ body {
     flex-direction: column;
     border: 2px solid black;
     margin: 2px;
-   
+}
+
+.comment div{
+    border: 2px solid black;
+    margin: 2px;
 }
