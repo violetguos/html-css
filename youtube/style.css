@@ -8,7 +8,6 @@ body {
 .nav-bar {
     overflow: hidden;
     display: flex;
-    border: 2px solid black;
     justify-content: space-between;
 }
 
@@ -26,14 +25,12 @@ body {
 
 .outer-frame{
     display: flex;
-    border: 2px solid black;
 }
 
 
 /*for planning*/
 .video, .recommendations{
     border-radius: 10px;
-    border: 2px solid black;
     margin: 2px;
     
     align-items: center;
@@ -45,9 +42,12 @@ body {
     width: 70%;
 }
 
-#intro{
-    border: 2px solid black;
 
+.stats{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    width: 966px;
 }
 
 .recommendations{
@@ -55,7 +55,6 @@ body {
 }
 
 .recommendations div{
-    border: 2px solid black;
     margin: 2px;
 }
 
@@ -68,17 +67,16 @@ body {
 .sideDescription{
     display: inline-block;
   vertical-align: top;
+  padding: 0;
 }
 
 .comment{
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
     margin: 2px;
 }
 
 .comment div{
-    border: 2px solid black;
     margin: 2px;
 }
 
