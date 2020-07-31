@@ -59,6 +59,17 @@ body {
     margin: 2px;
 }
 
+.vid img{
+    width: 170px;
+    height: 95px;
+  vertical-align: top;
+}
+
+.sideDescription{
+    display: inline-block;
+  vertical-align: top;
+}
+
 .comment{
     display: flex;
     flex-direction: column;
@@ -70,3 +81,4 @@ body {
     border: 2px solid black;
     margin: 2px;
 }
+
