@@ -35,7 +35,6 @@ body {
 /*for planning*/
 .video, .recommendations{
     margin: 10px;
-    border: solid;
     align-items: center;
     flex-direction: column;
 
@@ -46,8 +45,13 @@ body {
     width: 70%;
 }
 
+
+.video iframe{
+    width: min(100%, 966px);
+    height: min(110%, 543px);
+}
+
 .videoDescription{
-    border-top: 2px solid gray;
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
@@ -85,11 +89,14 @@ body {
     margin: 2px;
 }
 
-.comment div{
-    margin: 2px;
+
+
+.commentContent{
+    display: flex;
+    margin-bottom: 10px;
 }
 
-.comment #comment-1, .comment #comment-2{
-    display: flex;
+.profilePic{
+    margin-right: 5px;
 }
 
